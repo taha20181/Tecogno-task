@@ -1,0 +1,119 @@
+.chatwin {
+  background-color: transparent;
+  max-width: 75%;
+  /* min-height: 90vh; */
+  width: 100%;
+  border-radius: 10px;
+  /* margin-left: 2rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.chatProfilePhoto {
+  background-color: rgb(147 147 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.navItems {
+  display: flex;
+}
+
+.Nav {
+  background-color: transparent;
+  /* border-radius: 10px; */
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.chatScreen {
+  width: 100%;
+  min-height: 65vh;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  padding: 1rem;
+}
+
+.chatForm {
+  border-radius: 10px;
+  /* min-height: 15vh; */
+  width: 95%;
+  background-color: transparent;
+  border: 2px solid rgb(147 147 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.TextInput {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  border-style: none;
+  outline: none;
+}
+
+.formIcons {
+  padding: 1rem;
+}
+
+.textMessage {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.message {
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.inChatProfilePhoto {
+  min-width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f497f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.rightProfile {
+  justify-content: flex-end;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(147 147 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  position: relative;
+}

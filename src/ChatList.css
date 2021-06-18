@@ -1,0 +1,22 @@
+.chatlist {
+    background-color: transparent;
+    min-width: 25%;
+    /* min-height: 90vh; */
+    width: 100%;
+    margin-left: 1rem;
+    /* border-radius: 10px; */
+    border-right: 1px solid #dfdfdf;
+}
+
+.chatListItems {
+    overflow: auto;
+    max-height: 80vh;
+}
+
+.tabs {
+    background-color: transparent;
+    width: 100%;
+    padding: 1rem;
+    /* border-radius: 10px; */
+    /* border-bottom: 1px solid #dfdfdf; */
+}
